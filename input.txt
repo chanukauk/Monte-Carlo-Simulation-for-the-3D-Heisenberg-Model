@@ -1,0 +1,16 @@
+[Model_Parameters]
+
+L = 10
+J = 1.0
+
+
+[Monte_Carlo_Parameters]
+
+no_of_temperatures = 20
+
+T_min = 0.2
+T_max = 3.0
+
+no_of_samples = 100
+equilibration_sweeps = 1000
+sweeps_between_samples = 100
